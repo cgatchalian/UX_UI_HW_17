@@ -1,0 +1,151 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+    color: #F1F1F1; 
+    background-color: #01394C; 
+    margin: 2% 10%;
+}
+
+.top-nav {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    width: 1%%;
+    padding: 1% 5%; 
+    top: 0;
+    z-index: 1000;
+    background-color: #01394C; 
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px; 
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: end;
+    gap: 10px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #F1F1F1;
+    font-size: 24px;
+    padding: 0 10px;
+}
+
+
+.about-me > h1 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.hero-with-description {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero-image {
+    width: 352px;
+    height: 433px;
+}
+
+.description {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #F1F1F1;
+}
+
+.description strong {
+    font-weight: bold;
+    color: #E0CBA8;
+}
+
+.contact-links {
+    margin-top: 20px;
+}
+
+.details-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.left-column {
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #F1F1F1;
+}
+
+.right-column {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #F1F1F1;
+}
+
+.h2 { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    width: 1%%; 
+    padding: 1% 5%; 
+    background-color: #01394C; 
+    position: sticky;
+    bottom: 0;
+    z-index: 1000;
+    color: #F1F1F1; 
+}
+
+.footer-logo {
+    width: 40px;
+    height: 40px; 
+    grid-column: 1; 
+}
+
+.footer-nav-links {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: end;
+    gap: 10px; 
+    grid-column: 2; 
+}
+
+.footer-nav-links a {
+    text-decoration: none;
+    color: #F1F1F1; 
+    font-size: 24px; 
+    padding: 0 10px;
+}
+
+.footer hr {
+    border: none;
+    height: 1px;
+    background-color: #F1F1F1;
+    grid-column: 1 / -1;
+    width: 100%;
+    margin: 0 auto 5px auto; 
+}
+
+.footer p {
+    color: #F1F1F1;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px; 
+    margin: 10; 
+    padding: 10 5px; 
+    grid-column: 1 / -1; 
+    align-self: end; 
+}

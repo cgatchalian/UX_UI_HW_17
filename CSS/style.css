@@ -1,0 +1,98 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #F1F1F1;
+    background-color: #01394C;
+}
+
+.top-nav, .bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background: inherit;
+    z-index: 1000;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.about-me > h1 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-with-description {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero-image {
+    width: 352px;
+    height: 433px;
+}
+
+.description {
+    margin-left: 20px;
+}
+
+.description strong {
+    font-weight: bold;
+    color: #E0CBA8;
+}
+
+.contact-links {
+    margin-top: 20px;
+}
+
+.details-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.left-column {
+    margin-right: 20px;
+}
+
+.right-column {
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background: inherit;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: #F1F1F1;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 0;
+}
